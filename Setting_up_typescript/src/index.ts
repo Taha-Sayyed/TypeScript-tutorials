@@ -7,3 +7,4 @@ function greet(person:string):string{
 
 const username:string="Taha Sayyed";
 console.log(greet(username));
+
