@@ -10,6 +10,7 @@ console.log(getChai("Ginger Tea"));
 
 
 //Example-2
+//Optional Parameters with Conditional Logic.
 function serveChai(msg?:string){
     if(msg){
         return `Serving ${msg}`;
