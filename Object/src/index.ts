@@ -91,6 +91,7 @@ console.log(customerOrder);
 //---------------------------------------------------
 //Sometime we define data type once but use in different ways
 //Partial<T> is a built-in utility type in TypeScript that makes all properties of a type optional.
+//Note: Empty object can also be passed.
 type Chai={
     name:string,
     price:number,
